@@ -4,19 +4,9 @@ public class LikeInfo {
     private int likeCount;
     private Like like[];
 
-    public Like[] getLike() {
-        return like;
-    }
+    private boolean userLikes;
+    private boolean canLike;
+    private boolean canPublish;
 
-    public void setLike(Like[] like) {
-        this.like = like;
-    }
-
-    public int getLikeCount() {
-        return likeCount;
-    }
-
-    public void setLikeCount(int likeCount) {
-        this.likeCount = likeCount;
-    }
+    // + get/set на все поля
 }
